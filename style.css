@@ -1,5 +1,13 @@
+/*skaper en footer på bunnen*/
 .footer {
     background-color: #f1f1f1;
     padding: 10px;
+    text-align: center;
+  }
+
+/* Styler titelen */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
   }
