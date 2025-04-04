@@ -12,6 +12,19 @@ Vis brukeren valgte å loge inn så ville den komme til en ny side som forklarte
 
 Vis brukeren valgte å ikke loge inn så vilel akkurat det samme som å loge inn skje men brukeren ville ikke få muligheten til å endre tittelen.
 ## Programeringspråk
+sql ble brukt for å lagge databasen formelen ble slik
+
+```mysql> CREATE TABLE User_database.account ( ```
+```-> item_id INT AUTO_INCREMENT, ```
+```-> brukernavn VARCHAR(255) UNIQUE, ```
+```-> passord VARCHAR(255), ```
+```-> PRIMARY KEY (item_id) ```
+```-> );```
+```Query OK, 0 rows affected (1.69 sec) ```
+
+
+
+
 Jeg tok i bruke Html og css for netsidens layout.
 PhP for å koble til databasen og gjøre det mulig å logge in og registrere med hjelp av php samtidig som jeg brukte PhP til å skape en reaksjoner kode som vis brukeren ikke loget in ville gjøre den ene koden usynlig.
 
@@ -43,7 +56,7 @@ HTML
 ```</div>```
 
 ## den viktigste koden
-enkelt forklart så er den vitkigste koden php
+enkelt forklart så er den vitkigste koden php.
 
 Login side
 php koden blir bare aktivert igjennom if løken vis post har blit aktivert og igjenom koden så vil den gå igjennom databasen for å se om det er en bruker i databasen med de verdiene og vis det er en bruekr så sender den brukeren til Hovedsiden eller så sier den at passordet eller brukernavnet er feil.
@@ -72,6 +85,12 @@ For å kjøre programet så må man skrive inn linken som er [Lenketekst](http:/
 
 ## sikkerhet
 Det jeg har gjort for å gjøre netsiden emr sikker er å hashe passordet til databsen så man kan ikke gå inn i mysql for å se passordet. Samtidig for å gjøre så ingen havner i en annnens person bruker så har jeg gjort så det kreves at brukernavnet er unikt.
+
+
+## logg
+PÅ starten så fulgte jeg isntruksene fra linken i notion. 
+Derreter så møtte jeg på et problem med github som var at jeg ikke fikk opp forslage til source kontorl og brukte 1 time og 30 minuter eller mer på fiske problemet som var at jeg måtte laste den git på nyt i terminalen selv om jeg hadde gjort det fra før av. Værste av allt var at jeg hadde testet dette fra før av i en annen server og da gikk det fint.
+Etter å ha fikset det problemet så startet jeg å implemintere allt jeg trengte fra php og sql
 
 
 ## kilder
