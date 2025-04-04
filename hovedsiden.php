@@ -43,15 +43,18 @@ $con->close();
 <body>
 
 <div class="header">
-  <h1>Velkomen til netsiden hakke peiling</h1>
+  <h1 id="titel">Velkomen til netsiden hakke peiling</h1>
   <p>Vis du ikke er logget inn så vil noe av informasjonen bli gjemt</p>
 </div>
 
+<p>her kan du endre titetel på netsiden</p>
 
+    <input type="text" name="fname" id="nyetittel"><br>
+    <input type="button" onclick="endretitel()">
 
 <div class="footer">ring ## ## ## ## eller send melding til Stop@ikkemob.com vis det er en feil i systemet</div>
     
 
-    <script src="Javascript.Js"></script>
+    <script src="Javascript.JS"></script>
 </body>
 </html>
