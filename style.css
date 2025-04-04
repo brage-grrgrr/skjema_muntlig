@@ -11,3 +11,18 @@
     padding: 20px;
     text-align: center;
   }
+
+/*styler linkene så de ser finnere ut*/
+a:link, a:visited {
+    background-color: #36f4ab;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(181, 248, 204);
+  }
+

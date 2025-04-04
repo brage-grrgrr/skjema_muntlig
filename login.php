@@ -52,14 +52,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <style>
 </style>
 <body>
+    <div class="header">
     <h1>Logg inn</h1>
+</div>
     <form action="login.php" method="POST">
         <input type="text" name="brukernavn" placeholder="brukernavn" required>
         <input type="password" name="passord" placeholder="passord" required>
         <button type="submit">Logg inn</button>
     </form>
 
-    <a href="welcome.php?skip=1">Skip Login</a>
+    <a href="hovedsiden.php?skip=1">Skip Login</a>
     <div class="footer">ring ## ## ## ## eller send melding til Stop@ikkemob.com vis det er en feil i systemet</div>
 </body>
 </html>

@@ -45,7 +45,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <body>
+    <div class="header">
     <h1>Registrer deg</h1>
+    </div>
     <form action="registrer.php" method="POST">
         <input type="text" name="brukernavn" placeholder="skriv brukernavn" required>
         <input type="password" name="passord" placeholder="skriv passord" required>

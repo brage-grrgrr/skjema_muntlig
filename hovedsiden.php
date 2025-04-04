@@ -34,7 +34,7 @@ $con->close();
 <style>
 /* If user is not logged in, or if they skipped the login, hide the .simplebox */
 <?php if (!$loggedIn || $skipLogin) { ?>
-    .simplebox {
+    .endre {
         display: none;
     }
 <?php } ?>
@@ -46,12 +46,12 @@ $con->close();
   <h1 id="titel">Velkomen til netsiden hakke peiling</h1>
   <p>Vis du ikke er logget inn så vil noe av informasjonen bli gjemt</p>
 </div>
-
+<a class="endre">
 <p>her kan du endre titetel på netsiden</p>
 
     <input type="text" name="fname" id="nyetittel"><br>
     <input type="button" onclick="endretitel()">
-
+</a>
 <div class="footer">ring ## ## ## ## eller send melding til Stop@ikkemob.com vis det er en feil i systemet</div>
     
 
