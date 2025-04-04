@@ -32,7 +32,7 @@ $con->close();
     <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <style>
-/* If user is not logged in, or if they skipped the login, hide the .simplebox */
+/* vis brukeren ikke er loget inn som for eksempel i at de hoppet over å loge inn så vil den gjøre så allt i klasen "endre" vis ingetning */
 <?php if (!$loggedIn || $skipLogin) { ?>
     .endre {
         display: none;
