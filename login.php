@@ -47,10 +47,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Logg inn</title>
+    <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <style>
-
-
 </style>
 <body>
     <h1>Logg inn</h1>
@@ -61,5 +60,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </form>
 
     <a href="welcome.php?skip=1">Skip Login</a>
+    <div class="footer">ring ## ## ## ## eller send melding til Stop@ikkemob.com vis det er en feil i systemet</div>
 </body>
 </html>

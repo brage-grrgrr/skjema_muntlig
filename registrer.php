@@ -42,6 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Registrering</title>
+    <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <body>
     <h1>Registrer deg</h1>
@@ -50,5 +51,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="password" name="passord" placeholder="skriv passord" required>
         <button type="submit">Registrer</button>
     </form>
+
+
+    <div class="footer">ring ## ## ## ## eller send melding til Stop@ikkemob.com vis det er en feil i systemet</div>
 </body>
 </html>
