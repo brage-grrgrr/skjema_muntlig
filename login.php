@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Passordet er riktig, lagre brukerens info i sesjonen
             $_SESSION['bruker_id'] = $row['id'];
             $_SESSION['brukernavn'] = $row['brukernavn'];
-            header("Location: welcome.php"); // Omviderer til velkomstside
+            header("Location: hovedsiden.php"); // Omviderer til velkomstside
             exit();
         } else {
             echo "Feil brukernavn eller passord.";
